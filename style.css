@@ -1,0 +1,889 @@
+@media screen and (min-width: 1440px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body {
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+    }
+    
+    h2 {
+        position: fixed;
+        user-select: none;
+        text-align: left;
+        margin-left: 63%;
+        margin-top: 10px;
+    }
+    
+    
+    .container {
+        text-align: center;
+    }
+    
+    img#teste {
+        background-repeat: repeat;
+    }
+    
+    img#icone {
+        width: 10px;
+        transform: scale(20.0);
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    
+    img#imagem {
+        object-fit: cover;
+        object-position: center;
+        width: 300px;
+        transform: scale(5.0);
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    button#clicar {
+        margin-top: 14%;
+        margin-left: 0%;
+        border: none;
+        user-select: none;
+        width: 500px;
+        height: 350px;
+        position: fixed;
+        margin-bottom: 90px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    button#clicar:active {
+        transform: translateY(-5px);
+    }
+    
+    button#clicar:focus {
+        outline: none;
+    }
+    
+    main {
+        background-color: transparent;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    .upgrade {
+        font-size: 15px;
+        font-style:bold;
+        border-width: 4px;
+        user-select: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+    }
+    
+    button#menubotao {
+        margin-left: 95%;
+        bottom: 2%;
+        position: fixed;
+    }
+    
+    button#fechar {
+        margin-left: 335px;
+        background-color: transparent;
+        border: none;
+        user-select: none;
+    }
+    
+    img#fecharImage {
+        width: 40px;
+    }
+    
+    div#upgrades {
+        position: fixed;
+        box-shadow: 7px 6px 5px 7px rgba(0,0,0,0.14);
+        box-shadow: inset -2px -1px 115px 6px rgba(0,0,0,0.75);
+        margin-left: 3%;
+        margin-top: 4.6%;
+        background-image: url('images/madeira.jpg');
+        background-size: 300px;
+        background-repeat: repeat;
+        width: 500px;
+        border: #a46335;
+        height: 500px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 8px;
+    }
+    
+    div#menu {
+        display: none;
+        position: fixed;
+        top: 10%;
+        left: 40%;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        border: black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .upgrade:hover {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    input#upgrade1 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+    }
+    
+    input#upgrade2 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade1 {
+        user-select: none;
+    }
+    
+    .texto {
+        color: rgb(253, 231, 231);
+        font-style:italic;
+    }
+    
+    label#textoUpgrade2 {
+        user-select: none;
+        display: none;
+    }
+    
+    input#upgrade3 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade3 {
+        user-select: none;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body {
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+    }
+    
+    h2 {
+        position: fixed;
+        user-select: none;
+        text-align: left;
+        margin-left: 67%;
+        margin-top: 10px;
+    }
+    
+    
+    .container {
+        text-align: center;
+    }
+    
+    img#teste {
+        background-repeat: repeat;
+    }
+    
+    img#icone {
+        width: 10px;
+        transform: scale(20.0);
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    
+    img#imagem {
+        object-fit: cover;
+        object-position: center;
+        width: 200px;
+        transform: scale(5.0);
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    button#clicar {
+        margin-top: 13%;
+        margin-left: 9%;
+        border: none;
+        user-select: none;
+        width: 200px;
+        height: 250px;
+        position: fixed;
+        margin-bottom: 90px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    div#upgrades {
+        position: fixed;
+        box-shadow: 7px 6px 5px 7px rgba(0,0,0,0.14);
+        box-shadow: inset -2px -1px 115px 6px rgba(0,0,0,0.75);
+        margin-left: 5%;
+        margin-top: 6%;
+        background-image: url('images/madeira.jpg');
+        background-size: 300px;
+        background-repeat: repeat;
+        width: 400px;
+        border: #a46335;
+        height: 500px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 8px;
+    }
+    
+    button#clicar:active {
+        transform: translateY(-5px);
+    }
+    
+    button#clicar:focus {
+        outline: none;
+    }
+    
+    main {
+        background-color: transparent;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    .upgrade {
+        font-size: 15px;
+        font-style:bold;
+        border-width: 4px;
+        user-select: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+    }
+    
+    button#menubotao {
+        bottom: 3%;
+        position: fixed;
+    }
+    
+    button#fechar {
+        margin-left: 335px;
+        margin-top: 10px;
+        background-color: transparent;
+        border: none;
+        user-select: none;
+    }
+    
+    img#fecharImage {
+        width: 40px;
+    }
+    
+    div#menu {
+        display: none;
+        position: fixed;
+        top: 15%;
+        left: 35%;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        border: black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .upgrade:hover {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    input#upgrade1 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+    }
+    
+    input#upgrade2 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade1 {
+        user-select: none;
+    }
+    
+    .texto {
+        color: rgb(253, 231, 231);
+        font-style:italic;
+    }
+    
+    label#textoUpgrade2 {
+        user-select: none;
+        display: none;
+    }
+    
+    input#upgrade3 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade3 {
+        user-select: none;
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body {
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+    }
+    
+    h2 {
+        position: fixed;
+        user-select: none;
+        text-align: left;
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+    
+    
+    .container {
+        text-align: center;
+    }
+    
+    img#teste {
+        background-repeat: repeat;
+    }
+    
+    img#icone {
+        width: 10px;
+        transform: scale(20.0);
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    
+    img#imagem {
+        object-fit: cover;
+        object-position: center;
+        width: 100px;
+        transform: scale(5.0);
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    button#clicar {
+        margin-top: 230px;
+        margin-left: 40px;
+        border: none;
+        user-select: none;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        margin-bottom: 90px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    div#upgrades {
+        position: fixed;
+        box-shadow: 7px 6px 5px 7px rgba(0,0,0,0.14);
+        box-shadow: inset -2px -1px 115px 6px rgba(0,0,0,0.75);
+        margin-top: 160px;
+        left: 4%;
+        margin-bottom: 300px;
+        background-image: url('images/madeira.jpg');
+        background-size: 300px;
+        background-repeat: repeat;
+        width: 250px;
+        border: #a46335;
+        height: 350px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 8px;
+    }
+    
+    button#clicar:active {
+        transform: translateY(-5px);
+    }
+    
+    button#clicar:focus {
+        outline: none;
+    }
+    
+    main {
+        background-color: transparent;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    .upgrade {
+        font-size: 15px;
+        font-style:bold;
+        border-width: 4px;
+        user-select: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+    }
+    
+    button#menubotao {
+        margin-left: 10px;
+        bottom: 10px;
+        position: fixed;
+    }
+    
+    button#fechar {
+        margin-left: 335px;
+        margin-top: 10px;
+        background-color: transparent;
+        border: none;
+        user-select: none;
+    }
+    
+    img#fecharImage {
+        width: 40px;
+    }
+    
+    div#menu {
+        display: none;
+        position: fixed;
+        top: 13%;
+        left: 17%;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        border: black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .upgrade:hover {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    input#upgrade1 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+    }
+    
+    input#upgrade2 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade1 {
+        user-select: none;
+    }
+    
+    .texto {
+        color: rgb(253, 231, 231);
+        font-style:italic;
+    }
+    
+    label#textoUpgrade2 {
+        user-select: none;
+        display: none;
+    }
+    
+    input#upgrade3 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade3 {
+        user-select: none;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body {
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+    }
+    
+    h2 {
+        position: fixed;
+        user-select: none;
+        text-align: left;
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+    
+    
+    .container {
+        text-align: center;
+    }
+    
+    img#teste {
+        background-repeat: repeat;
+    }
+    
+    img#icone {
+        width: 10px;
+        transform: scale(20.0);
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    
+    img#imagem {
+        object-fit: cover;
+        object-position: center;
+        width: 100px;
+        transform: scale(5.0);
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    button#clicar {
+        margin-top: 230px;
+        margin-left: 40px;
+        border: none;
+        user-select: none;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        margin-bottom: 90px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    div#upgrades {
+        position: fixed;
+        box-shadow: 7px 6px 5px 7px rgba(0,0,0,0.14);
+        box-shadow: inset -2px -1px 115px 6px rgba(0,0,0,0.75);
+        margin-top: 160px;
+        margin-bottom: 300px;
+        background-image: url('images/madeira.jpg');
+        background-size: 300px;
+        background-repeat: repeat;
+        width: 250px;
+        border: #a46335;
+        height: 300px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 8px;
+    }
+    
+    button#clicar:active {
+        transform: translateY(-5px);
+    }
+    
+    button#clicar:focus {
+        outline: none;
+    }
+    
+    main {
+        background-color: transparent;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    .upgrade {
+        font-size: 15px;
+        font-style:bold;
+        border-width: 4px;
+        user-select: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+    }
+    
+    button#menubotao {
+        margin-left: 10px;
+        bottom: 10px;
+        position: fixed;
+    }
+    
+    button#fechar {
+        margin-left: 335px;
+        margin-top: 10px;
+        background-color: transparent;
+        border: none;
+        user-select: none;
+    }
+    
+    img#fecharImage {
+        width: 40px;
+    }
+    
+    div#menu {
+        display: none;
+        position: fixed;
+        top: 13%;
+        left: 10%;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        border: black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .upgrade:hover {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    input#upgrade1 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+    }
+    
+    input#upgrade2 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade1 {
+        user-select: none;
+    }
+    
+    .texto {
+        color: rgb(253, 231, 231);
+        font-style:italic;
+    }
+    
+    label#textoUpgrade2 {
+        user-select: none;
+        display: none;
+    }
+    
+    input#upgrade3 {
+        margin-top: 50px;
+        margin-left: 50px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade3 {
+        user-select: none;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body {
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+    }
+    
+    h2 {
+        position: fixed;
+        user-select: none;
+        text-align: left;
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+    
+    
+    .container {
+        text-align: center;
+    }
+    
+    img#teste {
+        background-repeat: repeat;
+    }
+    
+    img#icone {
+        width: 10px;
+        transform: scale(20.0);
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    
+    img#imagem {
+        object-fit: cover;
+        object-position: center;
+        width: 100px;
+        transform: scale(5.0);
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    button#clicar {
+        top: 10%;
+        margin-left: -30%;
+        border: none;
+        user-select: none;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        margin-bottom: 90px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    div#upgrades {
+        position: fixed;
+        box-shadow: 7px 6px 5px 7px rgba(0,0,0,0.14);
+        box-shadow: inset -2px -1px 115px 6px rgba(0,0,0,0.75);
+        bottom: 5%;
+        margin-left: 6%;
+        background-image: url('images/madeira.jpg');
+        background-size: 300px;
+        background-repeat: repeat;
+        width: 250px;
+        border: #a46335;
+        height: 250px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 8px;
+    }
+    
+    button#clicar:active {
+        transform: translateY(-5px);
+    }
+    
+    button#clicar:focus {
+        outline: none;
+    }
+    
+    main {
+        background-color: transparent;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    .upgrade {
+        font-size: 15px;
+        font-style:bold;
+        border-width: 4px;
+        user-select: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+    }
+    
+    button#menubotao {
+        margin-left: 10px;
+        bottom: 10px;
+        position: fixed;
+    }
+    
+    button#fechar {
+        margin-left: 78%;
+        margin-top: 10px;
+        background-color: transparent;
+        border: none;
+        user-select: none;
+    }
+    
+    img#fecharImage {
+        width: 40px;
+    }
+    
+    div#menu {
+        display: none;
+        position: fixed;
+        top: 13%;
+        left: 10.8%;
+        border-radius: 10px;
+        width: 250px;
+        height: 400px;
+        border: black;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .upgrade:hover {
+        background-color: rgb(199, 199, 199);
+    }
+    
+    input#upgrade1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+    }
+    
+    input#upgrade2 {
+        margin-top: 10px;
+        margin-left: 10px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade1 {
+        user-select: none;
+    }
+    
+    .texto {
+        color: rgb(253, 231, 231);
+        font-style:italic;
+    }
+    
+    label#textoUpgrade2 {
+        user-select: none;
+        display: none;
+    }
+    
+    input#upgrade3 {
+        margin-top: 10px;
+        margin-left: 10px;
+        background-image: url('images/madeira2.png');
+        font-weight: bold;
+        display: none;
+    }
+    
+    label#textoUpgrade3 {
+        user-select: none;
+        display: none;
+    }
+}
